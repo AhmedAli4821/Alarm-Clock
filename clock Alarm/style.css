@@ -1,0 +1,89 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    background-color: #fff;
+    font-family: cust;
+}
+#clock{
+    padding: 30px;
+    background-color: #2f94e4;
+    width: 70%;
+    margin: auto;
+    color: #fff;
+    font-size: 60px;
+    letter-spacing: 5px;
+    box-shadow: 1px 2px 13px #2f94e4,1px 2px 23px 
+    #2f94e4,1px 2px 33px #2f94e4,1px 2px 43px #2f94e4 ;
+    
+}
+.alarm-container{
+    text-align: center;
+    background-color: #fff;
+    padding: 20px 0;
+    width: 70%;
+    margin: auto;
+    box-shadow: 1px 2px 13px #2f94e4,1px 2px 23px 
+    #2f94e4,1px 2px 33px #2f94e4,1px 2px 43px #2f94e4 ;
+}
+.alarm-container h3{
+    font-size: 43px;
+    letter-spacing: normal;
+    color: #2f94e4;
+}
+.alarm-time{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+}
+.alarm-time div select{
+    height: 40px;
+    width: 80px;
+    font-size: 22px;
+}
+.buttonholder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    background-color: #fff;
+      margin: auto;  
+    box-shadow: 1px 2px 13px #2f94e4,1px 2px 23px 
+    #2f94e4,1px 2px 33px #2f94e4,1px 2px 43px #2f94e4 ;
+}
+.buttonholder div{
+     width: 120px;
+     
+      display: block; 
+     
+     padding: 20px;
+    margin: 2px 3px;
+    padding: 20px 0; 
+}
+.buttonholder div button{
+     width: inherit;
+    height: 50px; 
+    
+    border-radius: 30px;
+    font-size: 16px;
+    outline: none;
+    border: 1px solid #111;
+    /* transition: 4s ease-in-out; */
+    cursor: pointer;
+}
+.buttonholder div:nth-child(1) button,
+.buttonholder div:nth-child(2) button:hover{
+    background: #2f94e4;
+    color: #fff;
+
+} 
+.buttonholder div:nth-child(1) button:hover{
+    background-color: #fff;
+    color: #2f94e4;
+}
